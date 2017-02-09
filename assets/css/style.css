@@ -1,97 +1,41 @@
 
 body {
-	background: url("../images/seigaiha.png") no-repeat left fixed;
-	 background-size:960px;
-	 max-width:960px;
+	background: url("../images/seigaiha.png");
 	 margin:10px auto;
 	 float: left;
 	}
 
-h1 {
-	color: white;
+.header {
+	color:white;
 	background-color:#4aaaa5;
 	border:1px solid #cccccc;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	float:left;
 	position: fixed;
-	left:20px;
+	color:white;
+	left:40px;
 	text-align:center;
 	}
 
-h2 {
+.header2 {
 	color:#4aaaa5;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: x-large;
 	}
 
-#header{
- 	position: fixed;
-	height:60px;
-	width:960px;
-	background: #ffffff;
-	color:#777777;
-	top:0;
-	left:0;
-	}
-
-
-#links {
-	float:left;
-	font-size: 20px;
-	position:fixed;
-	left:690px;
-	top:20px;
-	width: 270px;
-	background: white;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	}
-
-.link {
-	color: #777777;
-	}
-
-
-#bio-image {
-  margin-right: 20px;
-  width: 200px;
-  height: 200px;
-  float:left;
-}
-
-
-.socailimages {
-  margin-right: 20px;
-  margin-top: 20px;
-  width: 50px;
-  height: 50px;
-  border width: 270px;
-}
-
-.portfolioimages {
-	margin-right: 20px;
-  	margin-top: 20px;
-  	width: 200px;
-  	height: 200px;
-  	position: relative;
- 	z-index: 100;
-  	float:left;
- 	}
-
-
-#connectwithme {
-	position:fixed;
-	left:680px;
-	top:150px;
-	float:left;
-	width: 270px;
-	background:#ffffff;
-	border:5px solid #dddddd;
+h4{
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	height:30px;
+	width:300px;
+	background: #4aaaa5;
 	text-align: center;
-	}
+	color:white;
+	z-index: 200px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
 
 
-#aboutmetext {
-	text-align: center;
-	}
 
 .maincontainer {
 	color:#777777;
@@ -100,72 +44,12 @@ h2 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width:650px;
 	position:relative;
-	top:105px;
+	top:0px;
 	float:left;
 	left:15px;
 	z-index: 20;
 	}
 
-.label1{ 
-	position: absolute;
-	height:30px;
-	width:200px;
-	background: #4aaaa5;
-	text-align: center;
-	color:white;
-	z-index: 200;
-	top:220px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	}
-
-.label2{ 
-	position: absolute;
-	height:30px;
-	width:200px;
-	background: #4aaaa5;
-	color:white;
-	z-index: 200;
-	top:220px;
-	left:220px;
-	text-align: center;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	}
-
-.label3{
-	position: absolute;
-	height:30px;
-	width:200px;
-	background: #4aaaa5;
-	text-align: center;
-	color:white;
-	z-index: 200;
-	top:460px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	}
-
-.label4{
-	position: absolute;
-	height:30px;
-	width:200px;
-	text-align: center;
-	background: #4aaaa5;
-	color:white;
-	z-index: 200;
-	top:460px;
-	left:220px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	}
-.label5{
-	position: absolute;
-	height:30px;
-	width:200px;
-	text-align: center;
-	background: #4aaaa5;
-	color:white;
-	z-index: 200;
-	top:660px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	}
 .title {
 	text-align: center;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -173,26 +57,25 @@ h2 {
 	font-size: 14px;
 	}
 
-#button {
-	padding:10px 20px;
-	font-size:14px;
-	background-color:#4aaaa5;
-	font-weight: bold;
-	color:white;
-	}
 
 .footer {
-	bottom: clear ;
+	bottom:clear ;
 	color:#fff;
 	background:#666666;
 	text-align:center;
 	position:fixed;
 	bottom:0px;
 	left:0px;
-	height:30px;
-	width:960px;
+	height:50px;
+	width: 100%;
 	z-index: 9999;
 	margin-top:200px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	border-top:10px solid #4aaaa5;
 	}
+
+	.button {
+
+		background:#4aaaa5;
+		color:white; }
+
