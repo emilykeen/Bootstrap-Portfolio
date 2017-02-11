@@ -41,13 +41,13 @@ body {
 .label{
 	position: absolute;
 	bottom: 20px;
-	left: 20px;
+	left: 18px;
 	height:20px;
 	width:70%;
 	background: #4aaaa5;
 	text-align: center;
 	color:white;
-	z-index: 200px;
+	z-index: 1000px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
 
 
